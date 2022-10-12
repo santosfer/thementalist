@@ -56,8 +56,17 @@ body {
   button {
     margin-top: 12px;
     padding: 4px 8px;
-    border-radius: 10px;
+    border-radius: 8px;
     background: #ffffff;
+  }
+
+  button:active {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  button:hover{
+    background-color: rgb(103, 50, 160);
   }
   
   .resultado {
